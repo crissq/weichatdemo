@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <image class="user-avatar" src="../imgs/avatar/1.png"></image>
+  <text class="user-name">hello,七月</text>
+  <view class="moto-container" bind:tap="onTap">
+    <text class="moto" bind="onSubTap">开启小程序之旅</text>
+  </view>
+</view>
